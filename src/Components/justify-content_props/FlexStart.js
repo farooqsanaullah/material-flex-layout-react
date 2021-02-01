@@ -4,7 +4,7 @@ import Box from '@material-ui/core/Box';
 import Card from "../Card"
 function FlexStart() {
     return (
-        <Box m={0} style={{ height: "93vh", background: "red" }}>
+        <Box>
             <Box p={2} display="flex" flexDirection="row" justifyContent="flex-start">
                 <Card />
                 <Card />
