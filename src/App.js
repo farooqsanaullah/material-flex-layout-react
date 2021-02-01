@@ -1,6 +1,6 @@
 import React from "react";
-import FlexNoWrap from "./Components/flex_wrap_props/FlexNoWrap";
-import "./styles.css";
+import FlexCenter from "./Components/justify-content_props/FlexCenter";
+
 export default function App() {
-  return <FlexNoWrap />;
+  return <FlexCenter />;
 }
