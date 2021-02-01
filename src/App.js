@@ -1,6 +1,6 @@
 import React from "react";
-import FlexCenter from "./Components/align_content_props/FlexCenter";
+import Order from "./Components/order_prop/Order";
 
 export default function App() {
-  return <FlexCenter />;
+  return <Order />;
 }

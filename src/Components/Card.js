@@ -18,7 +18,8 @@ import MoreVertIcon from "@material-ui/icons/MoreVert";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 345
+    maxWidth: 345,
+    marginRight:20
   },
   media: {
     height: 0,
@@ -39,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-export default function RecipeReviewCard() {
+export default function RecipeReviewCard({name,url}) {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -60,12 +61,12 @@ export default function RecipeReviewCard() {
             <MoreVertIcon />
           </IconButton>
         }
-        title="Shrimp and Chorizo Paella"
+        title={name?name:"Shrimp and Chorizo Paella"}
         subheader="September 14, 2016"
       />
       <CardMedia
         className={classes.media}
-        image="https://media.istockphoto.com/photos/pakistan-monument-islamabad-picture-id535695503?k=6&m=535695503&s=612x612&w=0&h=uP8aDK4xlfjk3kEiyr9wwUiuh80UwAiICweFpiBDosk="
+        image={url?url:"https://static.statusqueen.in/dpimages/thumbnail/dp_images_8-1279.jpg"}
         title="Paella dish"
       />
       <CardContent>
