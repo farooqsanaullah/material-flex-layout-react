@@ -1,6 +1,6 @@
 import React from "react";
-import Order from "./Components/order_prop/Order";
+import FlexGrow from "./Components/flex_grow_prop/FlexGrow";
 
 export default function App() {
-  return <Order />;
+  return <FlexGrow />;
 }
