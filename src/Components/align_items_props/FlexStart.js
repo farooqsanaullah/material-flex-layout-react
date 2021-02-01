@@ -6,9 +6,9 @@ function FlexStart() {
     return (
         <Box>
             <Box display="flex" alignItems="flex-start" style={{ height: "200px", background: 'green' }}>
-                <div style={{ padding: 10, background: 'gray' }}>
+                <Box component="div" style={{ padding: 10, background: 'gray' }}>
                     alignItems flex start
-              </div>
+              </Box>
             </Box>
         </Box>
     )

@@ -2,13 +2,14 @@ import React from 'react'
 
 import Box from '@material-ui/core/Box';
 
+
 function FlexEnd() {
     return (
         <Box>
             <Box display="flex" alignItems="flex-end" style={{ height: "200px", background: 'green' }}>
-                <div style={{ padding: 10, background: 'gray' }}>
+                <Box component="div" style={{ padding: 10, background: 'gray' }}>
                     alignItems flex end
-              </div>
+              </Box>
             </Box>
         </Box>
     )

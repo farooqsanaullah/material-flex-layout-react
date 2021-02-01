@@ -6,9 +6,9 @@ function FlexCenter() {
     return (
         <Box>
             <Box display="flex" alignItems="center" style={{ height: "200px", background: 'green' }}>
-                <div style={{ padding: 10, background: 'gray' }}>
+                <Box component="div" style={{ padding: 10, background: 'gray' }}>
                     alignItems center
-              </div>
+              </Box >
             </Box>
         </Box>
     )
