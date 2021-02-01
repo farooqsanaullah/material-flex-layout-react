@@ -1,6 +1,6 @@
 import React from "react";
-import FlexGrow from "./Components/flex_grow_prop/FlexGrow";
+import FlexShrink from "./Components/flex_shrink_prop/FlexShrink";
 
 export default function App() {
-  return <FlexGrow />;
+  return <FlexShrink />;
 }
