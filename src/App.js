@@ -1,6 +1,6 @@
 import React from "react";
-import Layout from "./Components/Layout";
+import FlexRowReverse from "./Components/flex_direction_props/FlexRowReverse";
 import "./styles.css";
 export default function App() {
-  return <Layout />;
+  return <FlexRowReverse />;
 }
