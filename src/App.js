@@ -1,6 +1,6 @@
 import React from "react";
-import Layout from "./Components/Layout";
-import "./styles.css";
+import FlexCenter from "./Components/justify-content_props/FlexCenter";
+
 export default function App() {
-  return <Layout />;
+  return <FlexCenter />;
 }
