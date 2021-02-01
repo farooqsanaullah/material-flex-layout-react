@@ -1,6 +1,6 @@
 import React from "react";
-import FlexCenter from "./Components/align_content_props/FlexCenter";
+import Flex from "./Components/Flex";
 
 export default function App() {
-  return <FlexCenter />;
+  return <Flex />;
 }
