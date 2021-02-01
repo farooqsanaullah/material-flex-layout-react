@@ -1,4 +1,4 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+.app {
+  background: gray !important;
+  height: 100vh !important;
 }
